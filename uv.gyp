@@ -160,9 +160,21 @@
           ],
           'link_settings': {
             'libraries': [
-              '-lws2_32.lib',
+              '-lDelayImp.lib',
+              '-ladvapi32.lib',
+              '-lcomdlg32.lib',
+              '-lgdi32.lib',
+              '-liphlpapi.lib',
+              '-lkernel32.lib',
+              '-lodbc32.lib',
+              '-lole32.lib',
+              '-loleaut32.lib',
               '-lpsapi.lib',
-              '-liphlpapi.lib'
+              '-lshell32.lib',
+              '-luser32.lib',
+              '-luuid.lib',
+              '-lwinspool.lib',
+              '-lws2_32.lib'
             ],
           },
         }, { # Not Windows i.e. POSIX
